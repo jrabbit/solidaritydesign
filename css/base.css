@@ -1,0 +1,29 @@
+/*
+    Fix bootstrap's top bar.
+*/
+body {
+    padding-top: 60px;
+}
+
+strong {
+    font-family: "newfolk solid";
+    font-size: 40px;
+}
+
+.nickname{
+    font-family: "newfolk sketch";
+    font-size: 28px;
+    padding: 10px; 
+}
+
+/*
+    http://www.kickstarter.com/projects/marcelommp/folk-is-a-great-font-lets-complete-it/posts
+*/
+@font-face {
+    font-family: "newfolk solid";
+    src: url("newfolk/NewFolk-solid.otf") format("opentype");
+}
+@font-face {
+    font-family: "newfolk sketch";
+    src: url("newfolk/NewFolk-sketches.otf") format("opentype");
+}
